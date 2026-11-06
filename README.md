@@ -144,10 +144,6 @@ The 34 tests cover each check, the lookalike engine (including a generated punyc
 - `.msg` input.
 - Optional output as a Microsoft Sentinel / Defender incident comment.
 
-## How it was built
-
-I designed and reviewed this project, and wrote it with help from **Claude Code** (Anthropic's AI coding assistant). The checks come from the phishing patterns I see in day-to-day triage.
-
 ## License
 
 MIT
