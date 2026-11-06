@@ -1,0 +1,48 @@
+Return-Path: <billing@vendor-invoices.test>
+Received: from mail.vendor-invoices.test (mail.vendor-invoices.test [203.0.113.80])
+	by mx.example.com with ESMTP id 8RtYc
+	for <alex@example.com>; Wed, 04 Nov 2026 14:05:40 +0000
+Authentication-Results: mx.example.com;
+	spf=softfail smtp.mailfrom=vendor-invoices.test;
+	dkim=none;
+	dmarc=none header.from=vendor-invoices.test
+From: "Accounts Payable" <billing@vendor-invoices.test>
+To: alex@example.com
+Subject: Outstanding invoice 4471 - payment overdue
+Date: Wed, 04 Nov 2026 14:05:37 +0000
+Message-ID: <inv4471.20261104140537@vendor-invoices.test>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="b-attach"
+
+--b-attach
+Content-Type: text/plain; charset="utf-8"
+
+Hello,
+
+Invoice 4471 is now overdue. Please review the attached invoice and the
+remittance form and arrange payment immediately.
+
+Accounts Payable
+
+--b-attach
+Content-Type: application/octet-stream; name="Invoice_4471.pdf.exe"
+Content-Disposition: attachment; filename="Invoice_4471.pdf.exe"
+Content-Transfer-Encoding: base64
+
+VGhpcyBpcyBhIGhhcm1sZXNzIHRlc3QgZmlsZSBmb3IgcGhpc2gtYW5hbHl6ZXIuIEl0IGlzIG5vdCBtYWx3YXJlLgo=
+
+--b-attach
+Content-Type: text/html; name="Remittance_Form.htm"
+Content-Disposition: attachment; filename="Remittance_Form.htm"
+Content-Transfer-Encoding: base64
+
+PGh0bWw+PGJvZHk+PHA+SGFybWxlc3MgdGVzdCBmaWxlIGZvciBwaGlzaC1hbmFseXplci4gTm90IGEgcmVhbCBwaGlzaGluZyBwYWdlLjwvcD48L2JvZHk+PC9odG1sPgo=
+
+--b-attach
+Content-Type: application/pdf; name="Terms.pdf"
+Content-Disposition: attachment; filename="Terms.pdf"
+Content-Transfer-Encoding: base64
+
+JVBERi0xLjQKJSBoYXJtbGVzcyBwbGFjZWhvbGRlciwgbm90IGEgcmVhbCBkb2N1bWVudAo=
+
+--b-attach--

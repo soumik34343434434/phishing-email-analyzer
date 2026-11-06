@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+# analysis output - may contain real IOCs or user data
+report*.md
+report*.json
+iocs*.csv
+# never commit real (non-sample) emails
+*.msg
+private/

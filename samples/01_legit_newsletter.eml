@@ -1,0 +1,38 @@
+Return-Path: <it-news@example.com>
+Received: from mail.example.com (mail.example.com [192.0.2.10])
+	by mx.example.com with ESMTPS id 7Hk2a
+	for <alex@example.com>; Mon, 02 Nov 2026 08:01:12 +0000
+Authentication-Results: mx.example.com;
+	spf=pass smtp.mailfrom=example.com;
+	dkim=pass header.d=example.com;
+	dmarc=pass header.from=example.com
+From: "Example IT Team" <it-news@example.com>
+To: alex@example.com
+Subject: IT news: new VPN client rollout next week
+Date: Mon, 02 Nov 2026 08:01:10 +0000
+Message-ID: <20261102080110.4821@mail.example.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="b-legit"
+
+--b-legit
+Content-Type: text/plain; charset="utf-8"
+
+Hi all,
+
+The new VPN client rolls out next week. Read the guide on the intranet:
+https://intranet.example.com/it/vpn-guide
+
+Thanks,
+IT Team
+
+--b-legit
+Content-Type: text/html; charset="utf-8"
+
+<html><body>
+<p>Hi all,</p>
+<p>The new VPN client rolls out next week. Read the
+<a href="https://intranet.example.com/it/vpn-guide">VPN guide on the intranet</a>.</p>
+<p>Thanks,<br>IT Team</p>
+</body></html>
+
+--b-legit--

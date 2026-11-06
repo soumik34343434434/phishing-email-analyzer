@@ -1,0 +1,27 @@
+Return-Path: <jordan.lee@exarnple.com>
+Received: from smtp.exarnple.com (smtp.exarnple.com [198.51.100.77])
+	by mx.example.com with ESMTPS id 1Bx9w
+	for <priya.finance@example.com>; Tue, 03 Nov 2026 11:42:05 +0000
+Authentication-Results: mx.example.com;
+	spf=pass smtp.mailfrom=exarnple.com;
+	dkim=pass header.d=exarnple.com;
+	dmarc=pass header.from=exarnple.com
+From: "Jordan Lee (CEO)" <jordan.lee@exarnple.com>
+Reply-To: jordan.lee.ceo@freemail.test
+To: priya.finance@example.com
+Subject: Urgent and confidential - supplier payment
+Date: Tue, 03 Nov 2026 11:42:01 +0000
+Message-ID: <CAF3x8y.20261103114201@exarnple.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Priya,
+
+I need you to process a wire transfer today for a new supplier. Their bank
+details have changed, so use the new bank account below rather than the one
+on file. I'm in meetings all day, so reply by email only.
+
+Please keep this confidential until the deal is announced.
+
+Jordan
+Sent from my phone

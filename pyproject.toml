@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phish-analyzer"
+version = "0.1.0"
+description = "Offline phishing email triage: SPF/DKIM/DMARC, lookalike domains, link and attachment analysis, MITRE ATT&CK-mapped findings and IOC export."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Soumik Paul" }]
+keywords = ["phishing", "email-security", "soc", "incident-response", "mitre-attack", "dfir"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Topic :: Security",
+    "Environment :: Console",
+]
+dependencies = []
+
+[project.scripts]
+phish-analyzer = "phish_analyzer.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
